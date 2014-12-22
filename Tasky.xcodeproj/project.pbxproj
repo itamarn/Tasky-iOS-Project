@@ -9,11 +9,19 @@
 /* Begin PBXBuildFile section */
 		CE8607661A41685A004F977F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8607651A41685A004F977F /* main.m */; };
 		CE8607691A41685A004F977F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8607681A41685A004F977F /* AppDelegate.m */; };
-		CE86076C1A41685A004F977F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE86076B1A41685A004F977F /* ViewController.m */; };
 		CE86076F1A41685A004F977F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE86076D1A41685A004F977F /* Main.storyboard */; };
 		CE8607711A41685A004F977F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE8607701A41685A004F977F /* Images.xcassets */; };
 		CE8607741A41685A004F977F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE8607721A41685A004F977F /* LaunchScreen.xib */; };
 		CE8607801A41685A004F977F /* TaskyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE86077F1A41685A004F977F /* TaskyTests.m */; };
+		CE86078B1A41694A004F977F /* TaskTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE86078A1A41694A004F977F /* TaskTableViewController.m */; };
+		CE86078E1A417198004F977F /* AddTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE86078D1A417198004F977F /* AddTaskViewController.m */; };
+		CE8607911A4171BB004F977F /* DtailedTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8607901A4171BB004F977F /* DtailedTaskViewController.m */; };
+		CE8607941A4171D7004F977F /* EditTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8607931A4171D7004F977F /* EditTaskViewController.m */; };
+		CE8607971A41922A004F977F /* TaskData.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8607961A41922A004F977F /* TaskData.m */; };
+		CE86079A1A419357004F977F /* notebook.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE8607991A419357004F977F /* notebook.jpg */; };
+		CE86079E1A41A43B004F977F /* TaskObject.m in Sources */ = {isa = PBXBuildFile; fileRef = CE86079D1A41A43B004F977F /* TaskObject.m */; };
+		CE8607A11A41AFA9004F977F /* TaskPropertyListData.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8607A01A41AFA9004F977F /* TaskPropertyListData.m */; };
+		CE8607A31A434692004F977F /* Images-2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE8607A21A434692004F977F /* Images-2.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +40,28 @@
 		CE8607651A41685A004F977F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CE8607671A41685A004F977F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CE8607681A41685A004F977F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CE86076A1A41685A004F977F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CE86076B1A41685A004F977F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CE86076E1A41685A004F977F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE8607701A41685A004F977F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CE8607731A41685A004F977F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		CE8607791A41685A004F977F /* TaskyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE86077E1A41685A004F977F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE86077F1A41685A004F977F /* TaskyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaskyTests.m; sourceTree = "<group>"; };
+		CE8607891A41694A004F977F /* TaskTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TaskTableViewController.h; path = ../TaskTableViewController.h; sourceTree = "<group>"; };
+		CE86078A1A41694A004F977F /* TaskTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TaskTableViewController.m; path = ../TaskTableViewController.m; sourceTree = "<group>"; };
+		CE86078C1A417198004F977F /* AddTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddTaskViewController.h; sourceTree = "<group>"; };
+		CE86078D1A417198004F977F /* AddTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddTaskViewController.m; sourceTree = "<group>"; };
+		CE86078F1A4171BB004F977F /* DtailedTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DtailedTaskViewController.h; sourceTree = "<group>"; };
+		CE8607901A4171BB004F977F /* DtailedTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DtailedTaskViewController.m; sourceTree = "<group>"; };
+		CE8607921A4171D7004F977F /* EditTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditTaskViewController.h; sourceTree = "<group>"; };
+		CE8607931A4171D7004F977F /* EditTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditTaskViewController.m; sourceTree = "<group>"; };
+		CE8607951A41922A004F977F /* TaskData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskData.h; sourceTree = "<group>"; };
+		CE8607961A41922A004F977F /* TaskData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskData.m; sourceTree = "<group>"; };
+		CE8607991A419357004F977F /* notebook.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = notebook.jpg; sourceTree = "<group>"; };
+		CE86079C1A41A43B004F977F /* TaskObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskObject.h; sourceTree = "<group>"; };
+		CE86079D1A41A43B004F977F /* TaskObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskObject.m; sourceTree = "<group>"; };
+		CE86079F1A41AFA9004F977F /* TaskPropertyListData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskPropertyListData.h; sourceTree = "<group>"; };
+		CE8607A01A41AFA9004F977F /* TaskPropertyListData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskPropertyListData.m; sourceTree = "<group>"; };
+		CE8607A21A434692004F977F /* Images-2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Images-2.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,11 +105,19 @@
 			children = (
 				CE8607671A41685A004F977F /* AppDelegate.h */,
 				CE8607681A41685A004F977F /* AppDelegate.m */,
-				CE86076A1A41685A004F977F /* ViewController.h */,
-				CE86076B1A41685A004F977F /* ViewController.m */,
 				CE86076D1A41685A004F977F /* Main.storyboard */,
+				CE8607891A41694A004F977F /* TaskTableViewController.h */,
+				CE86078A1A41694A004F977F /* TaskTableViewController.m */,
+				CE86078C1A417198004F977F /* AddTaskViewController.h */,
+				CE86078D1A417198004F977F /* AddTaskViewController.m */,
+				CE86078F1A4171BB004F977F /* DtailedTaskViewController.h */,
+				CE8607901A4171BB004F977F /* DtailedTaskViewController.m */,
+				CE8607921A4171D7004F977F /* EditTaskViewController.h */,
+				CE8607931A4171D7004F977F /* EditTaskViewController.m */,
+				CE8607981A419236004F977F /* Task model */,
 				CE8607701A41685A004F977F /* Images.xcassets */,
 				CE8607721A41685A004F977F /* LaunchScreen.xib */,
+				CE8607A21A434692004F977F /* Images-2.xcassets */,
 				CE8607631A41685A004F977F /* Supporting Files */,
 			);
 			path = Tasky;
@@ -96,6 +126,7 @@
 		CE8607631A41685A004F977F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CE8607991A419357004F977F /* notebook.jpg */,
 				CE8607641A41685A004F977F /* Info.plist */,
 				CE8607651A41685A004F977F /* main.m */,
 			);
@@ -117,6 +148,19 @@
 				CE86077E1A41685A004F977F /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE8607981A419236004F977F /* Task model */ = {
+			isa = PBXGroup;
+			children = (
+				CE86079C1A41A43B004F977F /* TaskObject.h */,
+				CE86079D1A41A43B004F977F /* TaskObject.m */,
+				CE8607951A41922A004F977F /* TaskData.h */,
+				CE8607961A41922A004F977F /* TaskData.m */,
+				CE86079F1A41AFA9004F977F /* TaskPropertyListData.h */,
+				CE8607A01A41AFA9004F977F /* TaskPropertyListData.m */,
+			);
+			name = "Task model";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +207,7 @@
 		CE8607581A41685A004F977F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = IN;
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Itamar Nakar";
 				TargetAttributes = {
@@ -199,8 +244,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE86079A1A419357004F977F /* notebook.jpg in Resources */,
 				CE86076F1A41685A004F977F /* Main.storyboard in Resources */,
 				CE8607741A41685A004F977F /* LaunchScreen.xib in Resources */,
+				CE8607A31A434692004F977F /* Images-2.xcassets in Resources */,
 				CE8607711A41685A004F977F /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,9 +266,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE86076C1A41685A004F977F /* ViewController.m in Sources */,
+				CE8607A11A41AFA9004F977F /* TaskPropertyListData.m in Sources */,
 				CE8607691A41685A004F977F /* AppDelegate.m in Sources */,
+				CE86079E1A41A43B004F977F /* TaskObject.m in Sources */,
+				CE8607911A4171BB004F977F /* DtailedTaskViewController.m in Sources */,
+				CE86078E1A417198004F977F /* AddTaskViewController.m in Sources */,
+				CE8607941A4171D7004F977F /* EditTaskViewController.m in Sources */,
 				CE8607661A41685A004F977F /* main.m in Sources */,
+				CE86078B1A41694A004F977F /* TaskTableViewController.m in Sources */,
+				CE8607971A41922A004F977F /* TaskData.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,7 +396,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Tasky/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -353,7 +408,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Tasky/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -412,6 +469,7 @@
 				CE8607851A41685A004F977F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE8607861A41685A004F977F /* Build configuration list for PBXNativeTarget "TaskyTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +478,7 @@
 				CE8607881A41685A004F977F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
